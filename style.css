@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f9e7f8;
+}
+
+h1 {
+    margin-top: 55px;
+    font-size: 64px;
+    font-family: 'Satisfy', cursive;
+    text-transform: capitalize;
+}
+
+form {
+    display: inline-block;
+    padding: 30px 50px;
+    border: 4px dashed pink;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
+}
+
+input {
+    font-family: inherit;
+}
+
+p span {
+    vertical-align: top;
+}
+
+form {
+    text-align: left;
+}
+
+input[type=date],
+input[type=text],
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    border: solid 2px pink;
+    border-radius: 10px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.btn-box {
+    text-align: right;
+}
+
+input[type=submit],
+input[type=button] {
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border: solid 2px pink;
+    border-radius: 10px;
+}

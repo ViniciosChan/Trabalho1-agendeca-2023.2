@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Satisfy&display=swap" rel="stylesheet"> 
+
+		<link rel="stylesheet" href="static/style.css">
+	</head>
+
+	<body>
+		<h1>Bem vindo a Cartas</h1>
+
+		<form action="/send" method="POST">
+			<p>Envie uma carta!</p>
+
+			<p>Data: <input type="date" id="data" name="data"></p>
+
+			<p>Destinatário: <input type="text" id="destinatario" name="destinatario"></p>
+
+			<p>
+				<span>Mensagem:</span>
+				<textarea id="mensagem" name="mensagem"></textarea>
+			</p>
+			<p>Remetente: <input type="text" id="remetente" name="remetente"></p>
+
+			<div class="btn-box">
+				<input type="submit" value="enviar">
+			</div>
+		</form>
+	</body>
+</html>
